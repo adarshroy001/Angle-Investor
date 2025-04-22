@@ -1,11 +1,11 @@
 import dashboardImg from '../../public/dashboard.png'
 const Hero = () => {
     return (
-      <div className="flex flex-col lg:flex-row max-w-screen lg:justify-between mx-auto lg:mx-0  pt-8 md:pt-16 min-h-[90vh]  bg-gray-900 text-white relative">
+      <div className="flex flex-col lg:flex-row justify-between max-w-screen lg:justify-between mx-auto lg:mx-0 pt-8 md:pt-16 min-h-[90vh]  bg-gray-900 text-white relative">
         {/* Hero Content */}
-        <div className="w-full lg:w-1/2 mb-8 lg:mb-0 mx-12">
+        <div className="w-full lg:w-1/2 mb-8 lg:mb-0 mx-4 md:mx-12">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            <div>Connect with thousands of </div>
+            <span>Connect with thousands of </span><br />
             <div className="inline-block bg-gradient-to-r from-[#2D5BFF] to-[#73737300] border-l-[3px] border-l-[#0011ff]">investors</div>
             <span> in seconds</span>
           </h1>
@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
         </div>
         {/* dashboard */}
-        <div className=''>
+        <div className='w-4/5 self-end lg:w-full'>
           <img src={dashboardImg} alt="" />
         </div>
       </div>
