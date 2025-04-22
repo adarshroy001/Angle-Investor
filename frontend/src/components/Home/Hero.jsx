@@ -1,14 +1,14 @@
-import dashboardImg from '../assets/dashboard.png'
+import dashboardImg from '../../assets/dashboard.png'
 const Hero = () => {
     return (
       <div className="flex flex-col lg:flex-row justify-between max-w-screen lg:justify-between mx-auto lg:mx-0 pt-8 md:pt-16 min-h-[90vh]  bg-gray-900 text-white relative">
         {/* Hero Content */}
         <div className="w-full lg:w-1/2 mb-0 lg:mb-8 mx-4 md:mx-16 mt-8">
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             <span className=''>Connect with  </span>
             <div className='mt-2 lg:mt-4'>thousands of </div>
-            <div className="inline-block bg-gradient-to-r from-[#2D5BFF] to-[#73737300] border-l-[3px] border-l-[#0011ff] mt-2 lg:mt-4">investors</div>
-            <span> in seconds</span>
+            <div className="inline-block bg-gradient-to-r from-[#2D5BFF] to-[#73737300] border-l-[3px] border-l-[#0011ff] mt-2 lg:mt-4 pb-2">investors </div>
+            <span div className="inline-block pb-2"> &nbsp; in seconds</span>
           </h1>
           <p className="text-blue-300 text-lg mb-8">
             Angel Match connects you with 110,000+ angel investors and 

@@ -1,5 +1,5 @@
-import rocket from '../assets/rokect.png'
-import money from '../assets/money.png'
+import rocket from '../../assets/rokect.png'
+import money from '../../assets/money.png'
 
 export default function CardsDark() {
   return (
