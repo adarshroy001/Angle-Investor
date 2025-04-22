@@ -1,4 +1,4 @@
-import dashboardImg from '../../public/dashboard.png'
+import dashboardImg from '../assets/dashboard.png'
 const Hero = () => {
     return (
       <div className="flex flex-col lg:flex-row justify-between max-w-screen lg:justify-between mx-auto lg:mx-0 pt-8 md:pt-16 min-h-[90vh]  bg-gray-900 text-white relative">
@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
         </div>
         {/* dashboard */}
-        <div className='w-4/5 self-end lg:w-full'>
+        <div className='w-4/5 self-end lg:w-1/2'>
           <img src={dashboardImg} alt="" />
         </div>
       </div>
