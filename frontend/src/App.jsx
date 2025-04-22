@@ -4,6 +4,7 @@ import Hero from './components/Home/Hero'
 import CardsWhites from './components/Home/CardsWhite'
 import CardsDark from './components/Home/CardsDark'
 import LongDarkSection from './components/Home/LongDarkSection'
+import WhereToPitch from './components/Home/WhereToPitch'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <CardsWhites/>
     <CardsDark/>
     <LongDarkSection/>
+    <WhereToPitch/>
   </div>
   )
 }
