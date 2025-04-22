@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
-import CardWhites from './components/CardsWhite'
+import CardsWhites from './components/CardsWhite'
+import CardsDark from './components/CardsDark'
 
 function App() {
 
@@ -10,7 +11,8 @@ function App() {
     <div className="bg-gray-900 text-white overflow-hidden ">
     <Header />
     <Hero />
-    <CardWhites/>
+    <CardsWhites/>
+    <CardsDark/>
   </div>
   )
 }
